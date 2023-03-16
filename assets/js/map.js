@@ -12,7 +12,7 @@ if (navigator.geolocation) {
 
 // Appelle AJAX qui appelle le JSON des consessions pour afficher les cartes de visite
 $.ajax({
-  url: "https://opendata.paris.fr/api/records/1.0/search/?dataset=sanisettesparis",
+  url: "https://opendata.paris.fr/api/records/1.0/search/?dataset=sanisettesparis&q=&rows=500&facet=type&facet=statut&facet=arrondissement&facet=horaire&facet=acces_pmr&facet=relais_bebe&refine.type=SANISETTE",
   type: "GET",
   dataType: "json",
   success: function (data) {
@@ -48,7 +48,7 @@ function initMap(lat, lng) {
 
   //Appelle AJAX qui appelle le JSON des consessions pour afficher les markers
   $.ajax({
-    url: "https://opendata.paris.fr/api/records/1.0/search/?dataset=sanisettesparis",
+    url: "https://opendata.paris.fr/api/records/1.0/search/?dataset=sanisettesparis&q=&rows=500&facet=type&facet=statut&facet=arrondissement&facet=horaire&facet=acces_pmr&facet=relais_bebe&refine.type=SANISETTE",
     type: "GET",
     dataType: "json",
     success: function (data) {
@@ -76,7 +76,6 @@ function initMap(lat, lng) {
     map: map,
   });
 
-  
 
 }
 
