@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Sanisettes Paris | Trouver des sanisettes à Paris</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="apple-mobile-web-capable" content="yes">
+    <meta name="mobile-web-capable" content="yes">
+    <meta name="description" content="description">
+    <link rel="stylesheet" href="./assets/css/reset.css"> <!-- link syle reset -->
     <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
-    <title>Sanisettes Paris | Trouver des sanisettes à Paris</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <link rel="icon" type="image/x-icon" href="./styles/img/logo.ico"><!-- link favicon -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- link jquery -->
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sanisettes Paris</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Accueil
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Voir la carte</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contactez-nous</a>
-              </li>
-            </ul>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sanisettes Paris</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Accueil
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Voir la carte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactez-nous</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    <script src="./assets/js/main.js"></script>
+      </div>
+    </nav>
+
+    <section id="localisation">
+      <div class="container">
+          <div class="row">
+              <h1>Nous Trouver</h1>
+              <div class="col-sm-12 col-md-5" id="listeToilettes" style="overflow-y: scroll;">
+                  
+              </div>
+              <div class="col-sm-12 col-md-7 blockMap">
+                  <div id="map"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzhMZ9hSsTXSErecPEh-kr30Nfqn_fuCE&libraries=localContext&v=beta" type="text/javascript"></script>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
