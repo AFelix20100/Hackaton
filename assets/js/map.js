@@ -18,26 +18,18 @@ $.ajax({
   success: function (data) {
     
     var toilettes = data;
-    $.each(toilettes, function (i, toilette) {
-      $("#listeToilettes").append(`
-                    <div class='listeItem'>
-                        <div class='row'>
-                            <div class='col-8'>
-                                <div class='row'>
-                                    <h3>${toilette.nom}</h3>
-                                    <div class='adresse'>
-                                        <p>${toilette.adresse}</p>
-                                        <p>${toilette.cp} ${toilette.ville}</p>
-                                        <p>${toilette.tel}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='col-4 lienMaps'>
-                                <a href='${toilette.lien}' target='_blank'><img src='./styles/img/map/logo-marker.png' alt='marker logo BRRAP><p>Y ALLER</p></a>
-                            </div>
-                        </div>
-                    </div>
-                `);
+    console.log("test");
+    $.each(toilettes.records, function (i, toilette) {
+      console.log(toilette);
+      $(".swiper-wrapper").append(`
+        <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>${toilette.fields.horaire}</p>
+              <h4>${toilette.fields.adresse.toUpperCase()}</h4>
+              <h5>${toilette.fields.arrondissement.toUpperCase()}</h5>
+              <p>PMR : ${toilette.fields.acces_pmr}</p>
+            </div>
+        </div>`);
     });
   },
   error: function (error) {
@@ -71,7 +63,8 @@ function initMap(lat, lng) {
           lat: toilette.fields.geo_shape.coordinates[0][1],
           lng: toilette.fields.geo_shape.coordinates[0][0],
         };
-        addMarker(position, map);
+        addMarker(position, map, toilette);
+
       });
     },
     error: function (error) {
@@ -84,7 +77,12 @@ function initMap(lat, lng) {
     position: posUser,
     map: map,
   });
+
+  
+
 }
+
+
 
 function addMarker(position, map) {
   var marker = new google.maps.Marker({
@@ -93,3 +91,9 @@ function addMarker(position, map) {
     // icon: "./styles/img/map/logo-marker.png",
   });
 }
+// google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){ 
+//   return function() {
+//       infowindow.setContent(content);
+//       infowindow.open(map,marker);
+//   };
+// })(marker,content,infowindow));  
