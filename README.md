@@ -50,23 +50,21 @@ Describe your project
 
 ## :sparkles: Fonctionnalités ##
 
-:heavy_check_mark: HTML\
-:heavy_check_mark: CSS\
-:heavy_check_mark: JQuery
+:heavy_check_mark: \
+:heavy_check_mark: \
+:heavy_check_mark: \
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML]
+- [CSS]
+- [JQuery]
 
 ## :white_check_mark: Dépendances ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Rien
 
 ## :checkered_flag: Démarrage ##
 
