@@ -46,7 +46,7 @@
 
 ## :dart: A propos ##
 
-Describe your project
+Description du projet
 
 ## :sparkles: Fonctionnalités ##
 
@@ -56,7 +56,7 @@ Describe your project
 
 ## :rocket: Technologies ##
 
-The following tools were used in this project:
+Les technologies utilisés dans le projet :
 
 - [HTML]
 - [CSS]
@@ -92,6 +92,8 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 Fait avec coeur :heart: by 
 <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{ARTHUR Félix}}</a>
 <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{TACITA Daisy}}</a>
+<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
+<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
 <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
 
 &#xa0;
