@@ -18,9 +18,7 @@ $.ajax({
   success: function (data) {
     
     var toilettes = data;
-    console.log("test");
     $.each(toilettes.records, function (i, toilette) {
-      console.log(toilette);
       $(".swiper-wrapper").append(`
         <div class="swiper-slide">
             <div class="testimonial-item">
