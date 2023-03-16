@@ -50,9 +50,9 @@ Describe your project
 
 ## :sparkles: Fonctionnalités ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: HTML\
+:heavy_check_mark: CSS\
+:heavy_check_mark: JQuery\
 
 ## :rocket: Technologies ##
 
