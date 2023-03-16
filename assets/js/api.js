@@ -1,7 +1,7 @@
 
 
 $.ajax({
-    url : "https://opendata.paris.fr/explore/dataset/sanisettesparis/api",
+    url : "https://opendata.paris.fr/api/records/1.0/search/?dataset=sanisettesparis&q=&facet=type&facet=statut&facet=arrondissement&facet=horaire&facet=acces_pmr&facet=relais_bebe",
     type : "POST",
     datatype : "json",
     success: function (data){
