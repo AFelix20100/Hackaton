@@ -37,18 +37,18 @@
   <a href="#sparkles-features">Fonctionnalités</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Les technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Dépendances</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Démarrage rapide</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Démarrage</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Auteurs</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: A propos ##
 
 Describe your project
 
-## :sparkles: Features ##
+## :sparkles: Fonctionnalités ##
 
 :heavy_check_mark: Feature 1;\
 :heavy_check_mark: Feature 2;\
@@ -64,11 +64,11 @@ The following tools were used in this project:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Dépendances ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Démarrage ##
 
 ```bash
 # Clone this project
@@ -91,8 +91,11 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Fait avec coeur :heart: by 
+<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{ARTHUR Félix}}</a>
+<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{TACITA Daisy}}</a>
+<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Revenir en haut</a>
