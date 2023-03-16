@@ -52,7 +52,7 @@ Describe your project
 
 :heavy_check_mark: HTML\
 :heavy_check_mark: CSS\
-:heavy_check_mark: JQuery\
+:heavy_check_mark: JQuery\;
 
 ## :rocket: Technologies ##
 
