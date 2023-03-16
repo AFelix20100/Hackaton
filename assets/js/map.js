@@ -16,6 +16,7 @@ $.ajax({
   type: "GET",
   dataType: "json",
   success: function (data) {
+    
     var toilettes = data;
     $.each(toilettes, function (i, toilette) {
       $("#listeToilettes").append(`
@@ -62,11 +63,13 @@ function initMap(lat, lng) {
     dataType: "json",
     success: function (data) {
       var toilettes = data;
-      $.each(toilettes, function (i, toilette) {
-        console.log(toilette);
-        position = {
-          lat: toilette.records[i].fields.geo_shape.coordinates[0][0],
-          lng: toilette.records[i].fields.geo_shape.coordinates[0][1],
+      
+      $.each(toilettes.records, function (i, toilette) 
+      {
+        position = 
+        {
+          lat: toilette.fields.geo_shape.coordinates[0][1],
+          lng: toilette.fields.geo_shape.coordinates[0][0],
         };
         addMarker(position, map);
       });
