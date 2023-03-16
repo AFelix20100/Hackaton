@@ -1,0 +1,21 @@
+{
+    "name": "Sanisettes Paris",
+    "short_name": "Sanisettes",
+    "description": "Bienvenue sur notre site de recherche de toilettes à Paris Notre objectif est de vous aider à trouver les toilettes les plus proches de votre position actuelle, afin que vous puissiez facilement satisfaire vos besoins en matière d'hygiène.",
+    "icons": [
+        {
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        
+        {
+
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/Sanisettes_paris/trouver_Saniettes/index.html",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
