@@ -771,7 +771,7 @@ section {
   position: relative;
 }
 
-.about .about-img::before {
+/* .about .about-img::before {
   position: absolute;
   left: 20px;
   top: 20px;
@@ -795,7 +795,7 @@ section {
   border-right: 5px solid #ffdd67;
   border-bottom: 5px solid #ffdd67;
   transition: 0.5s;
-}
+} */
 
 .about .about-img:hover {
   transform: scale(1.03);
@@ -1307,6 +1307,7 @@ section {
 }
 
 .testimonials .swiper-pagination {
+  color:#F3F3F3;
   margin-top: 30px;
   position: relative;
 }
@@ -1314,7 +1315,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #F3F3F3;
   opacity: 1;
 }
 
