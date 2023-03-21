@@ -50,9 +50,8 @@ Description du projet
 
 ## :sparkles: Fonctionnalités ##
 
-:heavy_check_mark: \
-:heavy_check_mark: \
-:heavy_check_mark: \
+:heavy_check_mark: Permet de voir les sanisattes de la ville de Paris\ 
+:heavy_check_mark: Affiche la postion de l'utilisateur en temps réel\
 
 ## :rocket: Technologies ##
 
@@ -83,7 +82,7 @@ $ php -S localhost:8000
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+Ce projet est sous la licence MIT. Pour plus détails, regardez ici [LICENSE](LICENSE.md).
 
 
 Fait avec coeur :heart: by 
