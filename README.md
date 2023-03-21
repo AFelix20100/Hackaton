@@ -69,7 +69,7 @@ Rien
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/hackaton
+$ git clone https://github.com/AFelix20100/hackaton
 
 # Access
 $ cd hackaton
