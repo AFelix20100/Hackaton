@@ -70,16 +70,13 @@ Rien
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/hackaton
+$ git clone https://github.com/{{AFelix20100}}/hackaton
 
 # Access
 $ cd hackaton
 
-# Install dependencies
-$ yarn
-
 # Run the project
-$ yarn start
+$ php -S localhost:8000
 
 # The server will initialize in the <http://localhost:3000>
 ```
@@ -90,11 +87,11 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 
 
 Fait avec coeur :heart: by 
-<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{ARTHUR Félix}}</a>
-<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{TACITA Daisy}}</a>
-<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
-<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
-<a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{EDELINE Bryan}}</a>
+<a href="https://github.com/AFelix20100" target="_blank">ARTHUR Félix</a>
+<a href="https://github.com/Daisy0402" target="_blank">TACITA Daisy</a>
+<a href="https://github.com/BryanEdeline" target="_blank">EDELINE Bryan</a>
+<a href="https://github.com/37anton" target="_blank">CAVANNE Antonin</a>
+<a href="https://github.com/XavierCARREAU" target="_blank">CARREAU Xavier</a>
 
 &#xa0;
 
