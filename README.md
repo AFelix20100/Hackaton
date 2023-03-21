@@ -85,7 +85,7 @@ $ yarn start
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+Ce projet est sous la licence MIT. Pour plus de détails, regardez ici [LICENSE](LICENSE.md) file.
 
 
 Fait avec coeur :heart: by 
