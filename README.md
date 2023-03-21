@@ -50,9 +50,8 @@ Description du projet
 
 ## :sparkles: Fonctionnalités ##
 
-:heavy_check_mark: \
-:heavy_check_mark: \
-:heavy_check_mark: \
+:heavy_check_mark: \ Permet de voir les sanisettes de Paris sur une carte.
+:heavy_check_mark: \ Affiche la position de l'utilisateur.
 
 ## :rocket: Technologies ##
 
