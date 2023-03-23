@@ -50,8 +50,8 @@ Description du projet
 
 ## :sparkles: Fonctionnalités ##
 
-:heavy_check_mark: Permet de voir les sanisattes de la ville de Paris\ 
-:heavy_check_mark: Affiche la postion de l'utilisateur en temps réel\
+:heavy_check_mark: Permet de voir les sanisattes de la ville de Paris;\ 
+:heavy_check_mark: Affiche la postion de l'utilisateur en temps réel
 
 ## :rocket: Technologies ##
 
